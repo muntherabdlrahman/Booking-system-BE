@@ -19,6 +19,7 @@
   "homepage": "https://github.com/muntherabdlrahman/Booking-system-BE#readme",
   "dependencies": {
     "accesscontrol": "^2.2.1",
+    "axios": "^0.24.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.1",
     "dotenv": "^10.0.0",
