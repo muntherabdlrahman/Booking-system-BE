@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 
-const MONGODB_URI = process.env.MONGODB_URI
+const MONGODB_URI = process.env.MONGODB_URI||`mongodb+srv://munther:munther12345@cluster0.z1ltb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 //import the server
 const server = require('./src/server.js');
 
