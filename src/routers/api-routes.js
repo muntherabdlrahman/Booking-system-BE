@@ -46,7 +46,7 @@ async function updateMeetingHandler(req, res, next) {
 
   try {
     let MeetingData = await interfaceDB.get(id);
-    MeetingData.Meeting_status = status;
+    MeetingData.meeting_status = status;
     await MeetingData.save();
     res.status(201).send(MeetingData);
   } catch (error) {

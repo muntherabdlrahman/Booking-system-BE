@@ -38,7 +38,7 @@ users.virtual('capabilities').get(function () {
     user: ['read-limitted', 'create', 'delete-limitted'],
     writer: ['read', 'create'],
     editor: ['read', 'create', 'update'],
-    admin: ['read-all', 'create', 'update', 'delete-all'],
+    admin: ['read-all', 'create', 'update', 'delete-all','delete-limitted'],
   };
   return acl[this.role];
 });
